@@ -1,0 +1,75 @@
+h1{
+    color: rgb(236, 209, 209);
+     border-color: thistle;
+     border : solid; 
+     border-radius: 10px;
+    /* border-radius: 10%; */
+     display: flex;
+     
+
+}
+.Header{
+    background-color: rgb(99, 95, 160);
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    margin-left: 50px;
+  
+}
+
+body{
+    background-color: turquoise;
+}
+h3{
+    text-align: center;
+}
+
+
+.grid{ 
+    display: flex; 
+    
+    flex-wrap: wrap; 
+    
+    justify-content: space-evenly; 
+} 
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity:0;
+}
+
+.item:hover p{
+    
+    opacity: 0.9;
+    transform: scale(2.0);
+}
+
+.item:hover img{
+    opacity: 1;
+    transform: scale(0.9);
+    
+} 
+a :link{
+    color: rgb(75, 105, 66);
+
+}
+
+a :visited{
+    color: rgb(206, 7, 7);
+}
+
+/* .header{ */
+    
+/* } */
